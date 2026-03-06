@@ -87,14 +87,22 @@ This model uses only one predictor variable (curb weight). It performs reasonabl
 ## Repository Layout
 
 data/
+    
     clean/
+        
         cleaned automobile dataset
+    
     raw/
+        
         raw automobile dataset
 
+
 notebooks/
+    
     clean.ipynb
+    
     explore.ipynb
+    
     model.ipynb
 
 README.md
