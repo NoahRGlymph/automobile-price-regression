@@ -8,8 +8,11 @@ The goal of this project was to determine is curb weight can be used to predict 
 The workflow looked like this:
 
 -cleaning the dataset
+
 -performing EDA
+
 -building a regression model
+
 -evaluating model performance
 
 ## Dataset
@@ -17,11 +20,17 @@ The workflow looked like this:
 The car dataset contained a variety of cars and their specifications including:
 
 -make/model/manufacturer
+
 -turbocharged vs naturally aspirated
+
 -two door/four door
+
 -amount of seats (coupe vs sedan)
+
 -engine size/displacement
+
 -fuel system
+
 -amount of cylinders
 
 The dataset included 205 vehicles with 26 variables for each.
@@ -31,18 +40,27 @@ The dataset included 205 vehicles with 26 variables for each.
 The project was organized into 3 notebooks:
 
 ### 1. Data Cleaning (clean.ipynb)
+
 -handled missing values
+
 -assigned column names
+
 -exported a cleaned dataset
 
+
 ### 2. Exploratory Data Analysis (explore.ipynb)
+
 -visualized relationships between variables
+
 -identified curb weight as a strong predictor of price
 
 ### 3. Modeling (model.ipynb)
+
 -built a linear regression model
+
 -split the data into training and testing sets
-evaluated performance using R2, MSE, RMSE
+
+-evaluated performance using R2, MSE, RMSE
 
 ## Model 
 
@@ -54,7 +72,9 @@ The data was split into training and testing sets to evaluate the models ability
 The regression model showed a positive relationship between curb weight and car price.
 
 Key metrics:
+
 -R2 ≈ 0.70
+
 -RMSE ≈ $4,900
 
 These metrics indicate curb weight alone explains roughly 70% of the variation in car price in this dataset.
